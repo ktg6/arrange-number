@@ -1,0 +1,181 @@
+
+* { margin: 0; padding: 0; }
+html, body { height: 100%; width: 100%; }
+canvas { display: block; }
+
+body {
+	background: #000;
+	color: #fff;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 50px;
+	text-align: center;
+	color: red;
+}
+
+p {
+	margin: 0 20px;
+	text-align: center;
+}
+
+#gamePlay {
+	color: #fff;
+	text-decoration: none;
+}
+
+#gamePlay.button {
+	background: #185da8;
+	border-radius: 5px;
+	display: block;
+	font-size: 30px;
+	margin: 25px 0 0 270px;
+	padding: 10px;
+	width: 200px;
+}
+
+#gamePlay.button:hover {
+	background: #2488f5;
+	color: #fff;
+	text-decoration: none;
+}
+
+#start {
+	color: #fff;
+	text-decoration: none;
+}
+
+#start.button {
+	background: #FF0000;
+	border-radius: 5px;
+	display: block;
+	font-size: 30px;
+	margin: 10px 0 0 100px;
+	padding: 10px;
+	width: 150px;
+	text-align: center;
+	float: left;
+}
+
+#start.button:hover {
+	background: #FF6347;
+	color: #fff;
+	text-decoration: none;
+}
+
+#gameBack {
+	color: #fff;
+	text-decoration: none;
+}
+
+#gameBack.button {
+	background: #228B22;
+	border-radius: 5px;
+	display: block;
+	font-size: 30px;
+	margin: 10px 0 0 275px;
+	padding: 10px;
+	width: 125px;
+	text-align: center;
+	float: left;
+}
+
+#gameBack.button:hover {
+	background: #3CB371;
+	color: #fff;
+	text-decoration: none;
+}
+
+#gameComplete {
+	color: #fff;
+	text-decoration: none;
+}
+
+#gameComplete.button {
+	background: #F2E24B;
+	border-radius: 5px;
+	display: block;
+	font-size: 30px;
+	margin: 0px 0 0 334px;
+	padding: 10px;
+	width: 140px;
+	text-align: center;
+	float: left;
+}
+
+#gameComplete.button:hover {
+	background: #756E2F;
+	color: #fff;
+	text-decoration: none;
+}
+
+#game:hover {
+	background: #2488f5;
+	color: #fff;
+	text-decoration: none;
+}
+
+#game {
+	height: 600px;
+	left: 50%;
+	margin: -300px 0 0 -400px;
+	position: relative;
+	top: 50%;
+	width: 800px;
+}
+
+#gameCanvas {
+	background: #001022;
+}
+
+#gameUI {
+	height: 600px;
+	position: absolute;	/*キャンパス最上面にUIを配置する*/
+	width: 800px;
+}
+
+#gameIntro, #gameComplete {
+	background: rgba(0, 0, 0, 0.5);
+	margin-top: 140px;
+	padding: 40px 0;
+	text-align: center;
+}
+
+#gameStats {
+	font-size: 14px;
+	margin: 20px 0;
+}
+
+#gameStats .gameReset {
+	margin: 20px 20px 0 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+#table {
+	margin: 0 auto;
+	padding-top: 70px;
+}
+
+#example {
+	margin-left: 200px;
+}
+
+#showtime {
+	margin-top: 30px;
+	font-size: 30px;
+}
+
+.tile { /*タイルの設定*/
+	width: 70px;
+	height: 70px;
+	border: 1px solid blue;
+	border-radius: 10px;
+	text-align: center;
+	font-size: 36px;
+	background-color: black;
+	box-shadow:rgb(128, 128, 128)5px 5px;
+}
